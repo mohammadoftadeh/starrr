@@ -19,6 +19,20 @@ starrr
 $('.starrr').starrr()
 ```
 
+# If you use font Awesome version >= 5.1.0 , You must make the following changes to the following lines in the starrr.js file:
+
+## Font Awesome >= 5.1.0 :
+```js
+10 | emptyClass: "far fa-star",
+11 | fullClass: "fas fa-star",
+```
+
+## Font Awesome <= 4.7.0 :
+```js
+10 | emptyClass: "fa fa-star-o",
+11 | fullClass: "fa fa-star",
+```
+
 ### With an existing rating
 
 ```js
